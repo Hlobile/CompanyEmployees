@@ -30,7 +30,11 @@ namespace CompanyEmployees
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
+<<<<<<< HEAD
             services.ConfigureSqlContext(Configuration);
+=======
+
+>>>>>>> a5a212c692d419a5c0ec1ce00f7ec87d592db13e
             services.AddControllers();
         }
 
